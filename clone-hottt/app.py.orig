@@ -1,4 +1,4 @@
-<<<<<<< .merge_file_obuizK
+<<<<<<< .merge_file_OZe80c
 from flask import Flask, render_template, request, session, redirect
 from functools import wraps
 from dbUtils import getList,add,setfinish,setundone,delete
@@ -332,5 +332,5 @@ def delete():
 		form= request.args
 	id = form['id']  # pass the form field name as key
 	delete(id)
->>>>>>> .merge_file_RxCq41
+>>>>>>> .merge_file_Gs6D1e
 	return redirect("/listJob")
