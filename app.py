@@ -2,7 +2,11 @@ from flask import Flask, render_template, request, session, redirect
 from functools import wraps
 from dbUtils import getList,add,setfinish,setundone,delete
 #from 專案名 import 專案內涵數
+
 #edit by 2
+
+#edit by 1
+
 # creates a Flask application, specify a static folder on /
 app = Flask(__name__, static_folder='static',static_url_path='/')
 #set a secret key to hash cookies
